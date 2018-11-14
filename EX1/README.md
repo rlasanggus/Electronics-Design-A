@@ -8,6 +8,8 @@
 + output  
     LED8개 출력을 위한 8개의 output port가 필요.  
     ![image](https://user-images.githubusercontent.com/43701183/48459061-39192180-e80c-11e8-8995-69e23f386d7f.png)
+    
+    
 
 
 
