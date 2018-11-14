@@ -6,8 +6,9 @@
 + input  
     inputport 없음
 + output  
-    LED8개 출력을 위한 8개의 output port가 필요.
-![image](https://user-images.githubusercontent.com/43701183/48458882-703b0300-e80b-11e8-83f0-c46b9d304ec3.png)
+    LED8개 출력을 위한 8개의 output port가 필요.  
+    ![image](https://user-images.githubusercontent.com/43701183/48458990-ef303b80-e80b-11e8-9702-df8745248686.png)
+
 
 
     
