@@ -1,6 +1,11 @@
 # electronics-design-A
 ### Microprocessor PIC16F876A chip  
 * EX1  
-  +adf
-+EX2
-
+  + GPIO  
+* EX2  
+  + INTERRUPT, TIMER/COUNTER  
+* EX3   
+  + CCP(CAPTURE, COMPARE, PWM)  
+* EX4  
+  + A/D CONVERTER  
+  
