@@ -1,6 +1,5 @@
 # electronics-design-A
-전자공학설계실험A  
-마이크로프로세서 PIC16F876A 칩을 사용  
+마이크로프로세서 PIC16F876A  
   -EX1  
     GPIO  
   -EX2  
