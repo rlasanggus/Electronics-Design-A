@@ -2,7 +2,7 @@
 ## <pre>ex1-1 
 >100ms delay를 만들고, delay를 이용하여 100ms 마다 8bit레지스터의 값을 1씩증가시키고, 레지스터의 변화값을 LED8개로 출력하여라.  
   
-###### <code>PORT I/O</code>  
+##### <code>PORT I/O</code>  
 + input  
 	inputport 없음
 + output  
@@ -10,6 +10,8 @@
     ![image](https://user-images.githubusercontent.com/43701183/48459061-39192180-e80c-11e8-8995-69e23f386d7f.png)
 + 변수설정  
 	char counter : counter를 계수할 char형 8bit 변수
+	
+##### <code>code 해석</code> 
 ```c   
  #include <htc.h>
  #define _XTAL_FREQ 4000000
