@@ -66,6 +66,11 @@ toggle sw가 on 이면서 push button이 눌리지 않으면, LED2의 duty ratio
 이후 코드는 위와 toggle sw의 on/off만 달라짐(LED선택)  
 
 
+
+
+* * *          
+* * *  
+
 ### <pre>ex3-2</pre>
 >Timer1을 이용하여 100ms 마다 pwm dutyratio를 조절하여 1초에 10단계로 밝기가 변하도록하시오.  
 ##### <code>PORT I/O</code>  
@@ -132,6 +137,12 @@ ei()를 이용 interrupt on
 timer1의 초기값 설정 TMR1H = 0b00111100,  TMR1L = 0b10101111  
   (1:1 prescale에선 1us에 1씩증가, 1:2 설정했으므로 2us마다 1씩증가 => 1111111111111111(2) - 100000/2)  
 다른 동작 필요없으므로 main에선 무한루프 while(1)  
+
+
+* * *          
+* * *  
+
+
 ## <pre>사용장치</pre>  
 >LED  
 ![image](https://user-images.githubusercontent.com/43701183/48461808-e2feab00-e818-11e8-901e-c0aab3782127.png)  
