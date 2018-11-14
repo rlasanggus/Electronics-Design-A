@@ -11,7 +11,7 @@
   ![image](https://user-images.githubusercontent.com/43701183/48490674-44e70100-e869-11e8-9b1f-be83f632016d.png)  
   ![image](https://user-images.githubusercontent.com/43701183/48490807-9099aa80-e869-11e8-8e76-5b4dfb687d4b.png)  
 + 변수설정  
-	
+  없음  
 + 함수  
   void init() : 초기치 설정  
   
