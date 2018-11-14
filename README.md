@@ -1,3 +1,3 @@
 # electronics-design-A
-## Microprocessor PIC16F876A chip
+### Microprocessor PIC16F876A chip
 
