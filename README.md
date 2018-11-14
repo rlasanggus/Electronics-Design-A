@@ -1,6 +1,6 @@
 # electronics-design-A
 ##마이크로프로세서 PIC16F876A  
-<pre>-EX1</pre>  
+<code>-EX1</code>  
 GPIO  
 -EX2  
 INTERRUPT, TIMER/COUNTER  
