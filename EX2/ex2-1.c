@@ -26,8 +26,8 @@ void display(unsigned char dis, unsigned char pos){
 }
 
 void interrupt isr(){
-	disp_count ++;
 	if((TMR0IE)&&(TMR0IF)){
+		disp_count ++;
 		switch(disp_count%2){
 			case 0: display(disp1, 0x01); break;
 			case 1:	display(disp2, 0x02); count++; break;
