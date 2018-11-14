@@ -34,7 +34,7 @@ void main(){
 				}
 			}
 		}
-		if(RA1 == 1){
+		if(RA0 == 1){
 			if(RA1 == 0){
 				if(CCPR2L == 250){
 					CCPR2L = 0;
