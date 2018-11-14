@@ -131,4 +131,10 @@ void main(){
 ei()를 이용 interrupt on
 timer1의 초기값 설정 TMR1H = 0b00111100,  TMR1L = 0b10101111  
   (1:1 prescale에선 1us에 1씩증가, 1:2 설정했으므로 2us마다 1씩증가 => 1111111111111111(2) - 100000/2)  
-다른 동작 필요없으므로 main에선 무한루프 while(1)
+다른 동작 필요없으므로 main에선 무한루프 while(1)  
+## <pre>사용장치</pre>  
+>LED  
+![image](https://user-images.githubusercontent.com/43701183/48461808-e2feab00-e818-11e8-901e-c0aab3782127.png)  
+## <pre>PIC16F876A</pre>  
+![image](https://user-images.githubusercontent.com/43701183/48489587-bf625180-e866-11e8-8557-e988bb1c4b54.png)  
+출저 : 39582C-PIC16F87XA datasheet
