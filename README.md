@@ -8,4 +8,3 @@
   + CCP(CAPTURE, COMPARE, PWM)  
 * EX4  
   + A/D CONVERTER  
-  [Google][googlelink] [googlelink]: https://google.com "Go google"
