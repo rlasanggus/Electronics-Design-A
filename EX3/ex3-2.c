@@ -29,8 +29,6 @@ void interrupt isr(){
 void main(){
 	TMR1L = 0b10101111;
 	TMR1H = 0b00111100;
-	/* 위에 계산한게 그냥 
-	1111/1111/1111/1111에서 50000만큼 뺀건데?*/
 	init();
 	ei();
 	while(1){
