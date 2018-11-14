@@ -9,7 +9,9 @@
 	LED8개 출력을 위한 8개의 output port가 필요.  
 	![image](https://user-images.githubusercontent.com/43701183/48460173-f1e15f80-e810-11e8-9ff7-38fe81ceef45.png)  
 + 변수설정  
-	char counter : counter를 계수할 char형 8bit 변수
+	char counter : counter를 계수할 char형 8bit 변수  
++ 함수  
+  	void init() : 초기치 설정 
 	
 ##### <code>code 해석</code> 
 ```c   
@@ -59,6 +61,9 @@ counter 값을 100ms 마다 1씩 증가
 	LED8개 출력을 위한 8개의 output port가 필요.  
 	![image](https://user-images.githubusercontent.com/43701183/48460072-68ca2880-e810-11e8-89e9-a6beffff5021.png)  
 + 변수설정  
+	 없음  
++ 함수  
+  void init() : 초기치 설정  
 ##### <code>code 해석</code>  
 ```c
 #include <htc.h>
