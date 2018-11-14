@@ -76,4 +76,43 @@ void init(){
 toggle sw의 입력을 받을 PA0, PA1을 input mode 로 설정  
 LED8개 출력을 위한 PORTC 8bit를 모두 output mode 로 설정  
 PORTA의 Digital I/O를 위해 ADCON1 설정  
+```c
+void main(){
+	init();
+	PORTC = 1;
+	__delay_ms(200);
+	while(1){
+```
+main에서 기본설정 init() 호출, PORTC에 기본값 1 설정
+```c
+		if(RA1 == 0){
+			if(RA0 == 0){
+				__delay_ms(200);
+			}else{
+				__delay_ms(100);
+			}
 
+			PORTC = PORTC<<1;
+			if(PORTC == 0){
+				PORTC = 1;
+			}
+```
+RA1에 연결된 toggle sw가 on 일때(on일때 0, off일때 1), RA0에 연결된 toggle sw가 on 이면 200ms delay, off이면 100msdealy  
+이후 PORTC를 shift => LED불빛도 옮겨짐  
+PORTC가 0 라면 최상위 비트를 지나 carry가 발생한 상태. 따라서 PORTC는 0으로 모든 비트가 0이므로 LED불빛이 안들어오게됨. 따라서 다시 초기값 1을 세팅
+```c
+		}else{
+			if(RA0 == 0){
+				__delay_ms(200);
+			}else{
+				__delay_ms(100);
+			}
+			PORTC = PORTC>>1;
+			if(PORTC == 0){
+				PORTC = 128;
+			}
+		}
+	}
+}
+```
+위의 코드와 비슷하나 오른쪽으로 shift 시켰으므로 0이 되었다면 1이 최상위 비트로 옮겨져아함으로 128
