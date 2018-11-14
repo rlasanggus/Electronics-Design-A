@@ -8,9 +8,35 @@
 + output  
     LED8개 출력을 위한 8개의 output port가 필요.  
     ![image](https://user-images.githubusercontent.com/43701183/48459061-39192180-e80c-11e8-8995-69e23f386d7f.png)
-    
-    
++ 
+```c   
+ #include <htc.h>
+ #define _XTAL_FREQ 4000000
+```
+코딩에 필요한 헤더파일과 PIC16F876A의 clock frequency인 4MHZ 를 FREQ 값으로 define
+```c
+void init(){
+TRISB = 0b00000000;
+}
 
+char counter;
+```
+PORTB의 8개 pin을 모두 output mode로 설정 필요한 변수 설정
+```c
+void main(){
+	counter = 0;
+	init();
+	while(1){
+		PORTB = counter;
+		_delay(100000);
+		//__delay_ms(100);
+		//__delat_us(100000);
+		counter ++;
+	}
+}
+```
+PORTB에 counter 8bit 값을 
+counter 값을 100ms 마다 1씩 증가  
 
 
     
