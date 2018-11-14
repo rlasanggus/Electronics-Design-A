@@ -7,7 +7,8 @@
     inputport 없음
 + output  
     LED8개 출력을 위한 8개의 output port가 필요.
-    
+    ![image](https://user-images.githubusercontent.com/43701183/48458750-ea1ebc80-e80a-11e8-98cc-3b8e542d345b.png)
+
     
           
 ## <pre>ex1-2</pre>
