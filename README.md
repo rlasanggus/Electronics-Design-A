@@ -1,4 +1,4 @@
-# electronics-design-A
+# Electronics-Design-A
 ### Microprocessor PIC16F876A chip  
 * [EX1](https://github.com/rlasanggus/electronics-design-A/tree/master/EX1)
   + GPIO  
