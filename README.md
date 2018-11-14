@@ -1,10 +1,3 @@
 # electronics-design-A
-##마이크로프로세서 PIC16F876A  
-<code>-EX1</code>  
-GPIO  
--EX2  
-INTERRUPT, TIMER/COUNTER  
--EX3  
-CCP(CAPTURE, COMPARE, PULSE-WITH-MODULATION)  
--EX4  
-A/D CONVERTER  
+## Microprocessor PIC16F876A chip
+
