@@ -38,9 +38,10 @@ void main(){
 	}
 }
 ```
-PORTB에 counter 8bit 값을 
-counter 값을 100ms 마다 1씩 증가  
-
+PORTB에 counter 8bit 값을입력  
+counter 값을 100ms 마다 1씩 증가 
+>__delay_ms(T) : Tms delay
+>__delay_us(T) : Tus delay
 
     
           
