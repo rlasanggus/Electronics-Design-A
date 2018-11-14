@@ -54,7 +54,7 @@ counter 값을 100ms 마다 1씩 증가
 ###### <code>PORT I/O</code>  
 + input  
 	toggle sw 입력을 위한 2개의 input port 필요.  
-	![image](https://user-images.githubusercontent.com/43701183/48459992-f6594880-e80f-11e8-9dcf-e74f4b026ec7.png)
+	![image](https://user-images.githubusercontent.com/43701183/48461634-f4938300-e817-11e8-97f3-cebd09de9c8b.png)  
 + output  
 	LED8개 출력을 위한 8개의 output port가 필요.  
 	![image](https://user-images.githubusercontent.com/43701183/48460072-68ca2880-e810-11e8-89e9-a6beffff5021.png)  
