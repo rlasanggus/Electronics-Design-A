@@ -5,7 +5,7 @@
 ##### <code>PORT I/O</code>  
 + input  
 	toggle sw 입력을 위한 PA0(RA0), push button 2개 입력을 위한 PA1(RA1), PA2(RA2)  
-	![image](https://user-images.githubusercontent.com/43701183/48487768-87590f80-e862-11e8-84ec-8c586b8eac39.png)  
+	![image](https://user-images.githubusercontent.com/43701183/48491386-cf7c3000-e86a-11e8-9049-a2cfd1f894b4.png)    
 	
 + output  
 	PWM 신호 2개를 출력할 PC1(RC1), PC2(RC2) (PC1, PC2선정이유 CCP1, CCP2 signal을 출력할 수 있는 pin 이기때문)  
