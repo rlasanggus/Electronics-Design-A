@@ -7,7 +7,7 @@
 	inputport 없음
 + output  
 	LED8개 출력을 위한 8개의 output port가 필요.  
-    ![image](https://user-images.githubusercontent.com/43701183/48459061-39192180-e80c-11e8-8995-69e23f386d7f.png)
+	![image](https://user-images.githubusercontent.com/43701183/48460173-f1e15f80-e810-11e8-9ff7-38fe81ceef45.png)  
 + 변수설정  
 	char counter : counter를 계수할 char형 8bit 변수
 	
