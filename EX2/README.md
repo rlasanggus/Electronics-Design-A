@@ -114,7 +114,8 @@ void main(){
   7seg 출력을 위한 8개의 output port  
   ![image](https://user-images.githubusercontent.com/43701183/48462123-3fae9580-e81a-11e8-8be9-f5e52fe2027a.png)  
   LED2개 output  
-  ![image](https://user-images.githubusercontent.com/43701183/48464267-5953db00-e822-11e8-93f9-e2e55619fce0.png)  
+  ![image](https://user-images.githubusercontent.com/43701183/48464714-cae05900-e823-11e8-8e61-b298c36ddd91.png)  
+
   
 >>7seg에 대한 자료는 하단 참조
 + 변수설정  
