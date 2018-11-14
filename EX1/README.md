@@ -6,7 +6,8 @@
 + input  
     inputport 없음
 + output  
-    outputport
+    LED8개 출력을 위한 8개의 output port가 필요하다
+    
           
 ### <pre>ex1-2</pre>
 >toggle 스위치 입력 2개와 8개의 LED출력을 이용하여 LED불빛이 1칸씩 이동하도록 만드시오. toggle 스위치 하나가 on/off될땐 불빛의 방향이, 또 다른하나의 toggle 스위치가 on/off될때마다 이동시간을 100ms/200ms가 되도록 만드시오.  
