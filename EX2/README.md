@@ -51,8 +51,6 @@ void init(){
 PORTC, PORTB, PORTA를 output mode로  
 OPTION_REG 설정 Timer0를 1:8분주로  
 인터럽트 on, timer0 start  
->레지스터 참고 : [REG](https://google.com)
-
 ```c
 void display(unsigned char dis, unsigned char pos){
 	PORTB = 0;
