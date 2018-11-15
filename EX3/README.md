@@ -1,5 +1,5 @@
 # CCP(CAPTURE, COMPARE, PWM) 
-### <pre>ex3-1</pre>  
+## <pre>ex3-1</pre>  
 >push button 2개와 toggle sw 1개를 이용하여 pwm dutyratio 를 조정하여 led 불빛의 밝기를 10단계로 조정하여라. toggle sw on/off에 따라 led를 선택  
   
 ##### <code>PORT I/O</code>  
@@ -71,7 +71,7 @@ toggle sw가 on 이면서 push button이 눌리지 않으면, LED2의 duty ratio
 * * *          
 * * *  
 
-### <pre>ex3-2</pre>
+## <pre>ex3-2</pre>
 >Timer1을 이용하여 100ms 마다 pwm dutyratio를 조절하여 1초에 10단계로 밝기가 변하도록하시오.  
 ##### <code>PORT I/O</code>  
 + input  
