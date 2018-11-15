@@ -38,7 +38,6 @@ void init(){
 PORTC는 PWM된 신호 출력위해 output mode로 설정, PORTA의 0,1,2번 port는 button과 sw 입력받기위해 input mode 설정  
 PWM 모드를 위해 CCP1CON 레지스터와 CCP2CON레지스터 설정  
 pulse-width-modulation 위한 주기와 duty ratio설정 (주기가 PR2값, duty ratio는 CCP1L/PR2)  
->레지스터 참고 : [REG](https://google.com)  
 ```c
 void main(){
 	init();
