@@ -1,5 +1,5 @@
 # Analog/Digital CONVERTER 
-### <pre>ex4-1</pre>  
+## <pre>ex4-1</pre>  
 >외부로부터 Analog signal(Vtg 변환기)를 하나 입력받아 A/D converter 후 LED로 출력하시오  
 
 ##### <code>PORT I/O</code>  
@@ -57,7 +57,7 @@ GO=1 setting 다시 변환시작
 * * *          
 * * * 
 
-### <pre>ex4-2</pre>
+## <pre>ex4-2</pre>
 >LM35로부터 온도 정보를 받아 7seg 로 온도를 출력하시오  
 + input  
   Analog 신호를 받을(LM35로부터 온도정보를 받을) pin1개 필요(channel0 사용했음으로 PA0(RA0))  
