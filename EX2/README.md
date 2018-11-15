@@ -109,7 +109,7 @@ void main(){
   외부 인터럽트를 입력받기위한 RB0 핀  
   ![image](https://user-images.githubusercontent.com/43701183/48463948-2230fa00-e821-11e8-9151-57ddd12e3478.png)  
 + output  
-	2자리의 7seg dig출력을 위한 2개의 output port  
+  2자리의 7seg dig출력을 위한 2개의 output port  
   ![image](https://user-images.githubusercontent.com/43701183/48463948-2230fa00-e821-11e8-9151-57ddd12e3478.png)  
   7seg 출력을 위한 8개의 output port  
   ![image](https://user-images.githubusercontent.com/43701183/48462123-3fae9580-e81a-11e8-8be9-f5e52fe2027a.png)  
@@ -157,7 +157,6 @@ void init(){
 ```
 PB0 핀을 외부인터럽트를 받기위해 input 설정  
 timer0, timer1, tiemr2를 사용하기위한 REG 설정 timer1는 1:8 prescale 설정, timer2는 1:16 prescale 설정  
->레지스터 참고 : [REG](https://google.com)  
 ```c
 if((INTE)&&(INTF)){
 		disp1 = 0;
