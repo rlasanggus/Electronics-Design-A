@@ -32,8 +32,7 @@ void init(){
 	ADCON1 = 0b10000111;	
 }
 ```  
-A/D 변환을 사용하기 위한 ADCON 설정 자세한 내용은 하단 설정 참조
->설정 참고 : [ADCON](https://google.com)  
+A/D 변환을 사용하기 위한 ADCON 설정 자세한 내용은 데이터시트 참조  
 ```c
 void main(){
 	GO = 1;
@@ -100,7 +99,6 @@ void init(void){
 }
 ```
 각 설정은 주석과 레지스터 참조  
->설정 참고 : [ADCON](https://google.com)  
 ```c
 void display(unsigned char dis, unsigned char pos){
 	PORTB = 0x00;
