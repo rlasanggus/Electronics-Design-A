@@ -1,6 +1,5 @@
 # Electronics-Design-A
 ### Microprocessor PIC16F876A chip  
-원하는 내용을 클릭해주세요  
 * [EX1](https://github.com/rlasanggus/electronics-design-A/tree/master/EX1)
   + GPIO  
 * [EX2](https://github.com/rlasanggus/electronics-design-A/tree/master/EX2)  
